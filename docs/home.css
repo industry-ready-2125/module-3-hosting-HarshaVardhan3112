@@ -1,0 +1,30 @@
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 30px;
+    column-gap: 15px;
+}
+
+.block-class{
+    height: 300px;
+    width: 258px;
+}
+
+.image-icon{
+    width: 100%;
+}
+
+.artists{
+    margin-top: 10px;
+    text-align: center;
+    font-weight: 600;
+    color: rgb(62, 62, 62);
+}
+
+.Followers{
+    text-align: center;
+    color: rgb(62, 62, 62);
+    font-size: 14px;
+    margin-top: 2px;
+}
+
