@@ -1,13 +1,13 @@
 .content {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     row-gap: 30px;
     column-gap: 15px;
 }
 
 .block-class{
-    height: 300px;
-    width: 258px;
+    height: 203px;
+    width: 156px;
 }
 
 .image-icon{
@@ -21,6 +21,10 @@
     color: rgb(62, 62, 62);
 }
 
+.image-icon, .artists{
+    cursor: pointer;
+}
+
 .Followers{
     text-align: center;
     color: rgb(62, 62, 62);
@@ -28,3 +32,23 @@
     margin-top: 2px;
 }
 
+@media (max-width: 980px) {
+    .content {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .block-class {
+        height: 300px;
+        width: 258px;
+    }
+}
+
+@media (max-width: 740px) {
+    .content {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .block-class {
+        height: 300px;
+        width: 258px;
+    }
+}
